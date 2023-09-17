@@ -238,5 +238,25 @@
       "price": "458.00",
       "imageUrl": "https://cdn2.thecatapi.com/images/5rr.jpg"
     }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "nickname": "별명임1",
+      "password": "1234",
+      "passwordconfirm": "1234",
+      "email": "user1@naver.com",
+      "address": "주소1",
+      "token": "abcdefg"
+    },
+    {
+      "id": "user2",
+      "nickname": "별명임2",
+      "password": "1234",
+      "passwordconfirm": "1234",
+      "email": "user2@naver.com",
+      "address": "주소2",
+      "token": "abcdefgh"
+    }
   ]
 }
