@@ -247,7 +247,7 @@
       "passwordconfirm": "1234",
       "email": "user1@naver.com",
       "address": "주소1",
-      "token": "abcdefg"
+      "access_token": "abcdefg"
     },
     {
       "id": "user2",
@@ -256,7 +256,7 @@
       "passwordconfirm": "1234",
       "email": "user2@naver.com",
       "address": "주소2",
-      "token": "abcdefgh"
+      "access_token": "abcdefgh"
     }
   ]
 }
