@@ -1,3 +1,5 @@
+const isProduction = process.env.NODE_ENV === 'production'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -39,6 +41,19 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
+  },
+
+  // server
+  server: {
+    port: isProduction ? null : 4000,
+  },
+
+  // env
+  env: {
+    // baseURL: isProduction
+    //   ? 'https://my-json-server.typicode.com/joshua1988/nuxt-shopping-api'
+    //   : 'http://localhost:3000',
+    baseURL: 'http://localhost:3000',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

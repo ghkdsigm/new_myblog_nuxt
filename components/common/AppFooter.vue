@@ -1,11 +1,13 @@
 <template>
-  <div>
-    ddd
-  </div>
+  <div>푸터</div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+
 }
 </script>
+
+<style>
+
+</style>
